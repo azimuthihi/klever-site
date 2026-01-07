@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>База Отдыха "Клевер" | Отдых на Природе</title>
+    <meta name="description"
+        content="Уютная база отдыха 'Клевер' в окружении леса. Домики, баня, свежий воздух. Забронируйте свой отдых!">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <div class="container header__container">
+            <a href="#" class="logo">
+                <img src="images/clover.png" alt="Клевер Лого" class="logo__icon">
+                <span class="logo__text">Клевер</span>
+            </a>
+
+            <nav class="nav" id="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#hero" class="nav__link active-link">Главная</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="#prices" class="nav__link">Цены</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">Галерея</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    &times;
+                </div>
+            </nav>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- HERO SECTION -->
+        <section class="home" id="hero">
+            <div class="home__bg-overlay"></div>
+            <img src="assets/img/sunset_beach.jpg" alt="База отдыха Клевер" class="home__img">
+
+            <div class="container home__container">
+                <div class="home__data">
+                    <span class="home__subtitle">Добро пожаловать в</span>
+                    <h1 class="home__title">Клевер</h1>
+                    <p class="home__description">
+                        Ваше идеальное место для отдыха в гармонии с природой.
+                        Тишина, лес и уют.
+                    </p>
+                    <a href="#contact" class="button button--flex">
+                        Забронировать <i class="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="section about" id="about">
+            <div class="container about__container">
+                <div class="about__data">
+                    <h2 class="section__title about__title">О нас</h2>
+                    <p class="about__description">
+                        База отдыха «Клевер» расположена в станице Должанская, в окружении красивой природы и морского
+                        побережья.
+                        Гостям предлагается проживание в уютных коттеджах с отдельным двориком, где можно провести
+                        теплые вечера в кругу семьи или друзей.
+                    </p>
+                    <div class="about__details">
+                        <p class="about__details-description">
+                            <i class="check-icon">✓</i> Экологически чистая зона
+                        </p>
+                        <p class="about__details-description">
+                            <i class="check-icon">✓</i> Комфортабельные домики
+                        </p>
+
+                    </div>
+                </div>
+                <div class="about__img-wrapper">
+                    <img src="assets/img/about_us.jpg" alt="База отдыха Клевер" class="about__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICES SECTION -->
+        <section class="section prices" id="prices">
+            <h2 class="section__title">Наши Цены</h2>
+            <span class="section__subtitle">Выберите свой отдых</span>
+
+            <div class="container prices__container">
+                <!-- Card 1 -->
+                <div class="price__card">
+                    <div class="price__img-wrapper">
+                        <img src="images/cabin.png" alt="Домик Стандарт" class="price__img">
+                    </div>
+                    <div class="price__content">
+                        <h3 class="price__title">Домик "Уют"</h3>
+                        <span class="price__cost">5000 ₽ <span class="price__period">/ сутки</span></span>
+                        <ul class="price__list">
+                            <li>2 спальных места</li>
+                            <li>Мини-кухня</li>
+                            <li>Веранда</li>
+                            <li>Мангальная зона</li>
+                        </ul>
+                        <a href="#contact" class="button button--small">Забронировать</a>
+                    </div>
+                </div>
+
+
+
+                <!-- Card 3 -->
+                <div class="price__card">
+                    <div class="price__img-wrapper">
+                        <img src="images/clover.png" alt="Беседка" class="price__img">
+                    </div>
+                    <div class="price__content">
+                        <h3 class="price__title">Аренда Беседки</h3>
+                        <span class="price__cost">1000 ₽ <span class="price__period">/ час</span></span>
+                        <ul class="price__list">
+                            <li>До 10 человек</li>
+                            <li>Мангал включен</li>
+                            <li>Электричество</li>
+                            <li>Рядом с озером</li>
+                        </ul>
+                        <a href="#contact" class="button button--small">Забронировать</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section class="section gallery" id="gallery">
+            <h2 class="section__title">Галерея</h2>
+            <span class="section__subtitle">Атмосфера нашего места</span>
+
+            <div class="container gallery__container">
+                <div class="gallery__item">
+                    <img src="assets/img/pool_day.png" alt="Бассейн" class="gallery__img">
+                </div>
+                <div class="gallery__item">
+                    <img src="assets/img/pool_fun.png" alt="Отдых у бассейна" class="gallery__img">
+                </div>
+                <div class="gallery__item">
+                    <img src="assets/img/playground.jpg" alt="Детская площадка" class="gallery__img">
+                </div>
+                <div class="gallery__item">
+                    <img src="assets/img/beach_day.jpg" alt="Пляж" class="gallery__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="section contact" id="contact">
+            <h2 class="section__title text-white">Контакты</h2>
+            <span class="section__subtitle text-white-dim">Свяжитесь с нами</span>
+
+            <div class="container contact__container">
+                <div class="contact__content">
+                    <h3 class="contact__title">Мы ждем вас!</h3>
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="contact__icon">PHONE</i>
+                            <div>
+                                <h3 class="contact__card-title">Телефон</h3>
+                                <span class="contact__card-data">
+                                    <a href="tel:+79054959596" class="contact__link">+7 (905) 495-95-96</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="contact__card">
+                            <i class="contact__icon">MAP</i>
+                            <div>
+                                <h3 class="contact__card-title">Адрес</h3>
+                                <span class="contact__card-data">ул. Кирова, 1/3, станица Должанская</span>
+                            </div>
+                        </div>
+                        <div class="contact__card">
+                            <i class="contact__icon">MAIL</i>
+                            <div>
+                                <h3 class="contact__card-title">Email</h3>
+                                <span class="contact__card-data">info@klever-base.ru</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Ваше Имя</label>
+                        <input type="text" placeholder="Иван" class="contact__form-input">
+                    </div>
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Телефон</label>
+                        <input type="tel" placeholder="+7..." class="contact__form-input">
+                    </div>
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Сообщение</label>
+                        <textarea cols="30" rows="10" placeholder="Хочу забронировать..."
+                            class="contact__form-input contact__form-area"></textarea>
+                    </div>
+                    <button class="button">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Клевер</a>
+                <p class="footer__description">Отдых, который вы заслужили.</p>
+            </div>
+            <div class="footer__social">
+                <!-- Placeholder for social icons -->
+                <a href="#" class="footer__social-link">VK</a>
+                <a href="#" class="footer__social-link">TG</a>
+            </div>
+        </div>
+        <p class="footer__copy">&#169; 2024 База отдыха Клевер. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
