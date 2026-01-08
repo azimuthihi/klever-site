@@ -285,7 +285,7 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 15rem;
+    padding-top: 30rem;
     /* Push content lower visually */
 }
 
@@ -329,7 +329,9 @@ img {
 }
 
 .home__description {
-    font-size: var(--normal-font-size);
+    font-family: var(--title-font);
+    font-size: var(--h2-font-size);
+    font-weight: bold;
     margin-bottom: 2.5rem;
     max-width: 600px;
     margin-left: auto;
@@ -664,5 +666,6 @@ img {
     .container {
         margin-left: auto;
         margin-right: auto;
+        margin-top: 45px;
     }
 }
